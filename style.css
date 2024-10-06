@@ -1,0 +1,94 @@
+/* General reset for padding and margins */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Header Section */
+.header {
+    margin-top: 50px;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.download-link {
+    color: #00ff00;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin-bottom: 50px;
+}
+
+.download-link:hover {
+    text-decoration: underline;
+}
+
+/* Phone Section */
+.phone-section img {
+    width: 300px;
+    margin: 30px 0;
+}
+
+/* Description Section */
+.description {
+    margin: 50px 0;
+}
+
+.description h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.description p {
+    font-size: 1.2rem;
+    color: #ccc;
+}
+
+/* Tent Section */
+.tent-section img {
+    width: 500px;
+    margin: 30px 0;
+}
+
+/* Footer Section */
+.footer {
+    margin-top: 40px;
+}
+
+.footer .phone-icon {
+    width: 40px;
+    margin-bottom: 20px;
+}
+
+.footer h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.footer a {
+    color: #00ff00;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
